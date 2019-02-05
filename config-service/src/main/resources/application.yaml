@@ -5,4 +5,4 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: file:C:\Users\oleksii.shkot\Documents\config

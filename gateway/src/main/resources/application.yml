@@ -1,0 +1,9 @@
+zuul:
+  ignoredServices: '*'
+  routes:
+    hello:
+      path: /hello/**
+      stripPrefix: false
+    hello-world:
+      path: /hello-world/**
+      stripPrefix: false

@@ -1,7 +1,6 @@
 spring:
   application:
     name: hello
-
   cloud:
     config:
-      uri:
+      uri: http://localhost:8888
