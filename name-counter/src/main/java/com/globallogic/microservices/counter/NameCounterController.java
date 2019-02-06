@@ -14,13 +14,13 @@ public class NameCounterController {
     private Map<String, Integer> nameAmount = new HashMap<>();
 
     @StreamListener(Sink.INPUT)
-    public void nameCount(String name) {
+    synchronized public void nameCount(String name) {
         Integer amount = nameAmount.getOrDefault(name, 0);
         nameAmount.put(name, ++amount);
     }
 
     @GetMapping("/{name}/amount")
-    public String getNameAmount(@PathVariable String name){
-        return nameAmount.getOrDefault(name,0).toString();
+    public String getNameAmount(@PathVariable String name) {
+        return nameAmount.getOrDefault(name, 0).toString();
     }
 }
