@@ -1,4 +1,4 @@
-package com.globallogic.world;
+package com.globallogic.microservices.world;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

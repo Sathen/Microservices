@@ -1,4 +1,4 @@
-package com.globallogic.dashboard;
+package com.globallogic.microservices.dashboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

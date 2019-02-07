@@ -1,4 +1,4 @@
-package com.globallogic.world.service;
+package com.globallogic.microservices.world.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

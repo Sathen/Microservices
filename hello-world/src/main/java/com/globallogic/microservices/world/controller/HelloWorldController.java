@@ -1,6 +1,6 @@
-package com.globallogic.world.controller;
+package com.globallogic.microservices.world.controller;
 
-import com.globallogic.world.service.HelloService;
+import com.globallogic.microservices.world.service.HelloService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

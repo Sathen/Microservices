@@ -1,4 +1,4 @@
-package com.globallogic.config;
+package com.globallogic.microservices.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class App {
+public class ConfigApp {
     public static void main(String[] args) {
-        SpringApplication.run(App.class,args);
+        SpringApplication.run(ConfigApp.class,args);
     }
 }
